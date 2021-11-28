@@ -15,12 +15,13 @@ npm i sprites-pack-tool
 
 ```
 
-导入
+1. 导入
 
 ```js
 const MySpritePackTool = require("sprites-pack-tool");
 ```
 
+2. 具体用法
 
 ```js
 const MySpritePackTool = require("sprites-pack-tool");

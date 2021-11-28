@@ -1,15 +1,35 @@
 {
-  "name": "sprites-pack-tool",
-  "version": "1.0.0",
-  "description": "",
-  "main": "./lib/index.js",
-  "scripts": {
-    "test": "node ./test/test.js"
-  },
-  "keywords": [],
-  "author": "_xdq",
-  "license": "ISC",
-  "dependencies": {
-    "images": "^3.2.3"
-  }
+    "name": "sprites-pack-tool",
+    "version": "1.0.1",
+    "description": "",
+    "main": "./lib/index.js",
+    "scripts": {
+        "test": "node ./test/test.js"
+    },
+    "dependencies": {
+        "images": "^3.2.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xdq1553/MySpritesPackTool.git"
+    },
+    "keywords": [
+        "spritesheet",
+        "binpacking"
+    ],
+    "bugs": {
+        "url": "https://github.com/xdq1553/MySpritesPackTool/issues"
+    },
+    "_npmUser": {
+        "name": "dq_x",
+        "email": "15588649359@qq.com"
+    },
+    "maintainers": [{
+        "name": "dq_x",
+        "email": "15588649359@qq.com"
+    }],
+    "author": "_xdq",
+    "license": "ISC",
+    "readme": "README.md",
+    "homepage": "https://github.com/xdq1553/MySpritesPackTool"
 }

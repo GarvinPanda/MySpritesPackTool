@@ -1,13 +1,13 @@
 {
-  "name": "myspritespacktool",
+  "name": "sprites-pack-tool",
   "version": "1.0.0",
   "description": "",
-  "main": "mySpritePackTool.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "node ./test/test.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "_xdq",
   "license": "ISC",
   "dependencies": {
     "images": "^3.2.3"

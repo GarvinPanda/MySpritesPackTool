@@ -1,6 +1,6 @@
-const  MySpritePackTool  = require("../lib/index");
+// const  MySpritePackTool  = require("../lib/index");
+const MySpritePackTool = require("sprites-pack-tool");
 const path = require("path");
-
 /** 打包最多递归次数 */
 const MAX_COUNT = 2;
 //需要合成的图集的路径

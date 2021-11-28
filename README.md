@@ -6,11 +6,24 @@
 
 轻量级的图集打包工具
 
+npm地址 : https://www.npmjs.com/package/sprites-pack-tool
 
 ## 使用方法
 
+```js
+npm i sprites-pack-tool
+
+```
+
+导入
 
 ```js
+const MySpritePackTool = require("sprites-pack-tool");
+```
+
+
+```js
+const MySpritePackTool = require("sprites-pack-tool");
 const path = require("path");
 /** 打包最多递归次数 */
 const MAX_COUNT = 2;

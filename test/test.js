@@ -1,17 +1,6 @@
-# 图片打包工具
-
-图像处理基于 [node-images](https://github.com/zhangyuanwei/node-images)
-
-## 简介
-
-轻量级的图集打包工具
-
-
-## 使用方法
-
-
-```js
+const  MySpritePackTool  = require("../lib/index");
 const path = require("path");
+
 /** 打包最多递归次数 */
 const MAX_COUNT = 2;
 //需要合成的图集的路径
@@ -30,5 +19,4 @@ const mySpritePackTool = new MySpritePackTool({
 });
 /** 图集打包 */
 mySpritePackTool.Pack2Sprite();
-```
 
